@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+
+#container
+{
+  display: flex;
+  flex-direction: row ;
+  /* flex: 1; won't work only apply it in to child */
+  flex-wrap: wrap;
+}
+.item
+{
+  background: rgb(240, 238, 238);
+  border: 1px solid black;
+  padding: 1rem;
+  flex: 1;
+  margin: 0.75rem;
+}
+
+
+
+</style>
+<body>
+  
+<header>
+
+<div id="container">
+  <div class="item item-1">
+    <h1>heading 1</h1>
+  </div>
+  <div class="item item-2">
+    <h1>heading 2</h1>
+  </div>
+  <div class="item item-3">
+    <h1>heading 3</h1>
+  </div>
+   
+</div>
+</header>
+
+</body>
+</html>
